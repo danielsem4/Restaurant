@@ -1,0 +1,97 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Restaurant</string>
+    <string name="pop_pop" translatable="false">pop_pop</string>
+    <string name="menu">Menu</string>
+    <string name="vegan_menu">Vegan menu ?</string>
+    <string name="date_time" translatable="false">date_time</string>
+    <string name="cover" translatable="false">cover</string>
+    <string name="name" translatable="false">name</string>
+    <string name="description" translatable="false">description</string>
+    <string name="restaurant" translatable="false">restaurant</string>
+    <string name="your_chosen_date_is" translatable="false">Your chosen date is:</string>
+    <string name="nam_yum" translatable="false">nam yum</string>
+    <string name="namYum" translatable="false">Nam Yum</string>
+    <string name="Date">Date</string>
+    <string name="Menu">Menu</string>
+    <string name="backicon" translatable="false">BackIcon</string>
+    <string name="ok">OK</string>
+    <string name="your_chosen_date">Your chosen date</string>
+    <string name="submit">Reserve Sits</string>
+    <string name="hope_you_will_come_hungry">Hope you will come hungry</string>
+    <string name="the_date_and_hour_is" translatable="false">The date and hour is:</string>
+    <string name="wine_image" translatable="false">Wine Image</string>
+    <string name="order_date">The date is: 00/00/00</string>
+    <string name="order_time">At 00:00</string>
+    <string name="order_payment">Payment method: Cash</string>
+    <string name="order_sits_number">Number of sits: 0</string>
+    <string name="preference">preference</string>
+    <string name="book_a_table">Book table</string>
+    <string name="payment_method">payment Method</string>
+    <string name="order">order</string>
+    <string name="book">Book</string>
+    <string name="preferred_payment_method">Preferred Payment Method</string>
+    <string name="amount_of_sits">Amount of sits</string>
+    <string name="menu_preference">Menu preference</string>
+    <string name="restaurant_info">A restaurant by Chef Shoval Gibri,\n specializing in raw fish and Italian cuisine. Located in center Tel Aviv</string>
+    <string name="book_table">Book Table</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="_1" translatable="false">1+</string>
+    <string name="minus" translatable="false">-1</string>
+    <string name="pleas_enter_the_amount_of_sits">Pleas enter the amount of sits</string>
+    <string name="time">Time</string>
+    <string name="The_time_is">The time is:</string>
+    <string name="The_date_is">The date is:</string>
+    <string name="missing_info">Missing Info</string>
+    <string name="the_amount_of_sits">The amount of sits:</string>
+    <string name="Love">Love</string>
+    <string name="Passion">Passion</string>
+    <string name="Tradition">Tradition</string>
+    <string name="Food">Food</string>
+    <string name="Pleasure">Pleasure</string>
+    <string name="enter_date_time">Please enter the date and the time</string>
+    <string name="whatsappicon">whatsappIcon</string>
+
+    <string-array name="words_loop">
+        <item >Love</item>
+        <item >Passion</item>
+        <item >Tradition</item>
+        <item >Food</item>
+        <item >Pleasure</item>
+    </string-array>
+
+    <string-array name="menuItems">
+        <item >Alfredo</item>
+        <item >Pasta with cream sauce and mushrooms\n58₪</item>
+        <item >Pizza</item>
+        <item >Pizza with tomato sauce and chess\n72₪</item>
+        <item >Aioli Olio</item>
+        <item >Pasta with butter and special sauce\n61₪</item>
+        <item >Coca Cola</item>
+        <item >The black gold\n12₪</item>
+        <item >Watter</item>
+        <item >Natural mineral watter from Swiss Alps\n22₪</item>
+        <item >Pizza with tuna</item>
+        <item >Pizza with tomato sauce chess and tuna\n78₪</item>
+        <item >Orange juice</item>
+        <item >Natural orange juice\n18₪</item>
+    </string-array>
+
+    <string-array name="toastInfo">
+        <item>We can contain up to 30 people only</item>
+        <item>less then 0 sits ? should i call 911 ?</item>
+        <item>See you soon</item>
+        <item>Please try again</item>
+    </string-array>
+
+    <string-array name="orderDetailsInfo">
+        <item>Hope you will come hungry\n</item>
+        <item>Missing Info</item>
+        <item>You may forgot enter the date / time / sits amount</item>
+        <item>The date is:</item>
+        <item>The time is:</item>
+        <item>Vegan menu is selected</item>
+        <item>Regular menu is selected</item>
+        <item>amount of sits:</item>
+    </string-array>
+
+</resources>

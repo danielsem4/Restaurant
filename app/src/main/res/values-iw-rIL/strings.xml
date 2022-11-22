@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="menu">תפריט</string>
+    <string name="vegan_menu">תפריט טבעני ?</string>
+    <string name="pleas_enter_the_amount_of_sits">אנא הכנס את מספר האורחים</string>
+    <string name="book_table">הזמן שולחן</string>
+    <string name="restaurant_info">מסעדת שף בהובלת שובל גיברי,\n מתמחה בדגים נאים ומטבח איטלקי, ממוקמת במרכז מתל אביב. </string>
+    <string name="menu_preference">העדפות תפריט</string>
+    <string name="amount_of_sits">מספר מושבים</string>
+    <string name="preferred_payment_method">אמצעי תשלום מועדף</string>
+    <string name="book">הזמן</string>
+    <string name="order">הזמן</string>
+    <string name="payment_method">אמצעי תשלום</string>
+    <string name="book_a_table">הזמן שולחן</string>
+    <string name="preference">העדפה</string>
+    <string name="order_sits_number">מספר מושבים בהזמנה</string>
+    <string name="order_payment">אמצעי תשלום בהזמנה</string>
+    <string name="order_time">זמן ההזמנה</string>
+    <string name="order_date">תאריך ההזמנה</string>
+    <string name="hope_you_will_come_hungry">מקווים שתגיעו רעבים</string>
+    <string name="submit">אישור</string>
+    <string name="your_chosen_date">התאריך שבחרת הוא</string>
+    <string name="ok">אשר הזמנה</string>
+    <string name="Menu">תפריט</string>
+    <string name="Date">תאריך</string>
+    <string name="time">שעה</string>
+    <string name="The_time_is">הזמנת לשעה:</string>
+    <string name="The_date_is">הזמנת לתאריך:</string>
+    <string name="_1" translatable="false">1+</string>
+    <string name="minus" translatable="false">-1</string>
+    <string name="missing_info">חסר מידע</string>
+    <string name="the_amount_of_sits">מספר הכיסאות הוא:</string>
+    <string name="Love">אהבה</string>
+    <string name="Passion">תשוקה</string>
+    <string name="Tradition">מסורת</string>
+    <string name="Food">אוכל</string>
+    <string name="Pleasure">הנאה</string>
+    <string name="enter_date_time">אנא הכנס תאריך ושעה</string>
+
+    <string-array name="words_loop">
+        <item >אהבה</item>
+        <item >תשוקה</item>
+        <item >מסורת</item>
+        <item >אוכל</item>
+        <item >הנאה</item>
+    </string-array>
+
+    <string-array name="menuItems">
+        <item >אלפרדו</item>
+        <item >פסטה שמנת פטריות\n58₪</item>
+        <item >פיצה</item>
+        <item >פיצה עם רוטב פיצה וגבינה\n72₪</item>
+        <item >איולי אוליו</item>
+        <item >פסטה עם חמאה ורוטב מיוחד\n61₪</item>
+        <item >קוקה קולה</item>
+        <item >הזהב השחור\n12₪</item>
+        <item >מים</item>
+        <item >מים מינרלים היישר מהאלפים השוויצרים\n22₪</item>
+        <item >פיצה עם טונה</item>
+        <item >פיצה עם רוטב פיצה וגבינה וטונה\n78₪</item>
+        <item >מיץ תפוזים</item>
+        <item >מיץ תפוזים טבעי\n18₪</item>
+    </string-array>
+
+    <string-array name="toastInfo">
+        <item>אנחנו יכולים להכיל עד 30 אנשים בהזמנה</item>
+        <item>פחות מ0 אנשים ? להתקשר למשטרה?</item>
+        <item>נתראה בקרוב</item>
+        <item>אנא נסה שנית</item>
+    </string-array>
+
+    <string-array name="orderDetailsInfo">
+        <item>מקווים שתגיעו רעבים\n</item>
+        <item>חסר מידע</item>
+        <item>כנראה שכחת להכניס תאריך/שעת הגעה/כמות מקומות</item>
+        <item>התאירך הוא:</item>
+        <item>השעה היא:</item>
+        <item>תפריט טבעוני נבחר</item>
+        <item>תפריט רגיל נבחר</item>
+        <item>מספר המקומות:</item>
+    </string-array>
+
+</resources>

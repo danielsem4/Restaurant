@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/backicon.xml" value="0.1625" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/bg_button.xml" value="0.155" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/bg_button2.xml" value="0.1745" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/bg_button3.xml" value="0.1715" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/check.xml" value="0.1715" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/date_range.xml" value="0.1715" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1625" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/menu_book.xml" value="0.1715" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/pencil.xml" value="0.1745" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/shopping_cart.xml" value="0.1715" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout-v23/book_table.xml" value="0.184375" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout-v28/food_card.xml" value="0.184375" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_main_menu.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_menu.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_table_book.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/book_table.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/date_dialog.xml" value="0.184375" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/drop_down_payment.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/food_card.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/image_card.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/order_dialog.xml" value="0.184375" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/order_submit_dialog.xml" value="0.2671875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/Restaurant/app/src/main/res/layout/order_sumbit_dialog.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

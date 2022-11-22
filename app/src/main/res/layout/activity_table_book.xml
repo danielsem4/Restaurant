@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homebackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/cardbackground"
+            android:gravity="center"
+
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backIcon"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/backicon"
+                android:src="@drawable/backicon"
+                android:background="@null"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/TableBookHeadLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/book_a_table"
+                android:textSize="30sp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:id="@+id/monkeyPic"
+            android:layout_height="250dp"
+            android:src="@drawable/monkey"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/enter_date_time"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/date"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_button"
+                    android:drawableStart="@drawable/date_range"
+                    android:focusable="true"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/Date"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    tools:targetApi="m" />
+
+                <Button
+                    android:id="@+id/Clock"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_button"
+                    android:focusable="true"
+                    android:text="@string/time"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText,SmallSp"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:paddingHorizontal="10dp"
+                    android:drawableStart="@drawable/watch"
+                    tools:targetApi="m" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/pleas_enter_the_amount_of_sits"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/minusOne"
+                    android:gravity="center"
+                    android:text="@string/minus"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:id="@+id/amountOfSits"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/_0"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:id="@+id/plusOne"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/_1"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="@string/vegan_menu"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/VeganMenuSwitch"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/submitOrder"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="145dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_button"
+                    android:focusable="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="30dp"
+                    android:textSize="15sp"
+                    android:paddingHorizontal="10dp"
+                    android:drawableStart="@drawable/check"
+                    tools:targetApi="m" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ChefAnimation"
+                    app:lottie_rawRes="@raw/italianchef"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
